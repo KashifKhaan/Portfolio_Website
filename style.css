@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin: 50px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    align-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  section#hero {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  section#hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+  }
+  
+  section#hero p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
+  
+  section#about {
+    text-align: center;
+  }
+  
+  section#about p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  section#about img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  section#portfolio {
+    display: flex;
+  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  section#portfolio .project {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  
+  section#portfolio .project img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  section#portfolio .project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  section#portfolio .project p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  section#portfolio .project a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  section#portfolio .project a:hover {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  section#contact {
+    text-align: center;
+  }
+  
+  section#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  section#contact input,
+  section#contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  section#contact input:focus,
+  section#contact textarea:focus {
+    border-color: #333;
+  }
+  
+  section#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  section#contact button:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
