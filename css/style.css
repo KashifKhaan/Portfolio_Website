@@ -169,3 +169,62 @@ body {
 .center {
   text-align: center;
 }
+
+section {
+  margin: 50px 0;
+}
+
+main {
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section#contact {
+  text-align: center;
+}
+
+section#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+section#contact input,
+section#contact textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+section#contact input:focus,
+section#contact textarea:focus {
+  border-color: #333;
+}
+
+section#contact button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+section#contact button:hover {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
